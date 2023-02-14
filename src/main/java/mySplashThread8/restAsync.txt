@@ -1,0 +1,22 @@
+async rest
+https://github.com/JavaCorner/async-rest/blob/f0537c21b06e38b03c8804a526a704a7fd7da909/src/main/java/com/ab/BookDao.java#L48
+https://github.com/Sumit1991Saha/Async-Rest-Jersey/blob/master/src/main/java/com/saha/dao/BookDao.java
+https://github.com/msegeya/pluralsight-asynchronous-rest-with-jersey/blob/master/src/main/java/com/pluralsight/BookResource.java
+https://github.com/lucioalmeida/jira-rest-java-client/tree/33bbc50b129341e8865c599546bf03f072b69ba5/src/main/java/com/atlassian/jira/rest/client
+DevOps-Demo/core-common/src/main/java/org/glassfish/jersey/message/internal/DataSourceProvider.java
+devops_project/core-client/src/main/java/org/glassfish/jersey/client/filter/CsrfProtectionFilter
+
+https://stackoverflow.com/questions/31562618/jersey-async-request-handling-with-programmatical-resource-registration
+https://stackoverflow.com/questions/33651968/decide-at-runtime-for-sync-or-async-response-using-jersey
+async-supported
+
+
+http://localhost:8080/dynamicFeature/users/getAll
+http://localhost:8080/dynamicFeature2/users/getAll
+http://localhost:8080/protoManager/plgnClmn
+[{"name":"name1","displayName":"displayName1","description":"description1","plgnLocale":"en_US"}]
+curl -X POST
+curl -H "Content-Type: application/json" -X POST -d {\"name\":\"name1\",\"displayName\":\"displayName1\",\"description\":\"description1\",\"plgnLocale\":\"en_US\"} http://localhost:8080/protoManager/plgnClmn/insert
+curl -H "Content-Type: application/json" -X DELETE  http://localhost:8080/protoManager/plgnClmn/delete/1
+curl -H "Content-Type: application/json" -X POST  http://localhost:8080/protoManager/plgnClmn/delete/1
+curl -H "Content-Type: application/json" -X POST -d {\"name\":\"name1\",\"displayName\":\"displayName1\",\"description\":\"description1\",\"plgnLocale\":\"en_US\"} http://localhost:8080/protoManager/plgnClmn/update
